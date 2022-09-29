@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha --recursive --timeout 15000 --exit",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "install": "^0.13.0",
+    "mocha": "^10.0.0",
+    "npm": "^8.19.2",
+    "standard": "^17.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
