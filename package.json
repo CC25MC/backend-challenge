@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "standard && mocha --recursive --timeout 15000 --exit",
@@ -9,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Cesar Casadiego <cesarmiguel199@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
